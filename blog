@@ -1,0 +1,25 @@
+https://go.dev/talks/2012/splash.article#TOC_4.
+"each programmer using a different subset of the language"
+
+It's interesting Elixir and Gleam both have only 15 keywords, it seems like Elixir can provide more through <a href="https://hexdocs.pm/elixir/macros.html"> whereas Gleam just has Louis saying <a href="https://lpil.uk/blog/how-to-add-metaprogramming-to-gleam/">no to metaprogramming</a>.
+
+Don't read too much into this, for one thing not even sure how accurate it is, I might have made mistakes and for instance python has an "and" keyword that other languages don't, GDScript has PI and TAU keywords, imo these do not increase the complexity of the lanugage. And languages treat keywords a bit differently so it's not really apples to apples. Num keywords does not exactly represent language complexity. So this is pretty much just ragebait but at least the graph is pretty. But again this is not necessarily meaningful, might not even be precise enough for trivia.
+
+For example people say Gleam has 15 keywords which is probably true in some important technical sense, but doesn't count "_" underscore which maybe isn't exactly a keyword in that technical sense, but practically speaking you need to know to read Gleam case statements.
+
+For instance https://forums.swift.org/t/where-can-i-get-the-full-list-of-swift-keywords/71488/29 maybe adding some keywords doesn't make the language more complex, or for instance Go making you use "for" to do a while loop doesn't simplify anything. Still...
+
+I omitted keywords that are reserved for future use but don't do anything, because a) makes Gleam look better and b) when you read code in a language you don't need to know anything about keywords that don't do anything. I also didn't count operators like "==", "+", "||", etc., maybe people who do languages and compilers would have a more formal way of counting keywords . Or for example people always say oh Gleam has only 15 keywords...really imo "_" counts from a practical perspective, you need to know it matches anything in a case, but maybe it's different in some technical sense idk. Point is this is not really precise, imo when we talk about keywords we mean words, but my judgement is kind of made up.
+
+
+https://learn.perl.org/docs/keywords.html for example has a bajillion words but I only included those from "Perl syntax"
+
+Feel free to make a pull request at (REPO) if you have a strong opinion on what counts as a keyword or not.
+
+Languages from <a href="https://survey.stackoverflow.co/2025/technology#most-popular-technologies-language-language">https://survey.stackoverflow.co/2025/technology#most-popular-technologies-language-language</a> but omitted some:
+<ul>
+<li>Cool but not general purpose programming languages, yes maybe you can torture it into turing complete whatever but you know what I mean: HTML/CSS, SQL, Bash/Shell, PowerShell, Assembly</li>
+<li>Marked as duplicate: MicroPython</li>
+<li>Not sure which: Lisp</li>
+<li>Lower popularity than Gleam: Prolog, COBOL, Mojo</li>
+</ul>
