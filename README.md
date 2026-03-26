@@ -1,24 +1,9 @@
-# keywords
-
-[![Package Version](https://img.shields.io/hexpm/v/keywords)](https://hex.pm/packages/keywords)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/keywords/)
+[https://correctarity.com/keywords](https://correctarity.com/keywords)
 
 ```sh
-gleam add keywords@1
-```
-```gleam
-import keywords
-
-pub fn main() -> Nil {
-  // TODO: An example of the project in use
-}
+gleam run   # parse keywords.json and create graph.html
 ```
 
-Further documentation can be found at <https://hexdocs.pm/keywords>.
+keywords json in [https://github.com/D-matz/num-keywords/blob/master/keywords.json](https://github.com/D-matz/num-keywords/blob/master/keywords.json)
 
-## Development
-
-```sh
-gleam run   # Run the project
-gleam test  # Run the tests
-```
+![screenshot](https://correctarity.com/static/numkeywords.JPG)
